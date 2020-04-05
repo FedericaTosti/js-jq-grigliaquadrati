@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0aae2;
+}
+
+.punteggio{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.tablecontainer{
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.square {
+  border:  1px solid black;
+  width: calc(100% / 8);
+  height: calc(100% / 8);
+  cursor: pointer;
+}
